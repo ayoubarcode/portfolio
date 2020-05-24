@@ -1,0 +1,195 @@
+[{
+    "model": "about.about",
+    "pk": 1,
+    "fields": {
+        "paragraphe": "I\u2019m Ayoub Arahmat , a 24 years old self-taught Full Stack web  developer , From Morocco .",
+        "created": "2020-05-22T00:22:57.158Z",
+        "updated": "2020-05-24T02:52:33.407Z",
+        "draft": true
+    }
+}, {
+    "model": "about.about",
+    "pk": 2,
+    "fields": {
+        "paragraphe": "In August  2018 After my college degree in \"educational technologies and multimedia and web\r\ndevelopment\",   I decided it was time for a change, so I started to wake up at 8am to study python and javascript before . I quickly started to love both technologies , and in January 2019 I decided to take the risk and quit my city. I\u2019ve been studying Full stack  development full time ever since and I documented my whole journey on my Instagram.",
+        "created": "2020-05-22T00:23:07.232Z",
+        "updated": "2020-05-24T02:19:31.373Z",
+        "draft": true
+    }
+}, {
+    "model": "about.about",
+    "pk": 3,
+    "fields": {
+        "paragraphe": "in  January 2019 I got my first  job as a \"web developer\", where I stayed for almost 6 months, i developed web application with Django , Angular, Laravel PHP , ReactJs , and HTML & CSS...",
+        "created": "2020-05-22T00:23:18.926Z",
+        "updated": "2020-05-24T02:19:31.380Z",
+        "draft": true
+    }
+}, {
+    "model": "about.about",
+    "pk": 4,
+    "fields": {
+        "paragraphe": "During this time, I took online courses like Advanced CSS and Sass: Flex-box, Grid, Animations and More! The Complete Javascript Course, Javascript30, Understanding the Weird Parts, ES6, Modern React w/ Redux, Advanced Django concepts , Django rest framework , Node.js , read book series \"Eloquent javascript\" and more ...   also watched countless YouTube videos about Javascript & python.",
+        "created": "2020-05-22T00:23:30.574Z",
+        "updated": "2020-05-24T02:19:31.388Z",
+        "draft": true
+    }
+}, {
+    "model": "about.about",
+    "pk": 5,
+    "fields": {
+        "paragraphe": "Because we know the best way to learn is to practice, I also did a bunch of personal projects with the knowledge I gathered from the courses and from my freelance experiences, you can check them on my portfolio.\r\n\r\nThere are other projects I can't list, I need the client's approval",
+        "created": "2020-05-22T00:23:38.952Z",
+        "updated": "2020-05-24T02:19:31.395Z",
+        "draft": true
+    }
+}, {
+    "model": "about.about",
+    "pk": 6,
+    "fields": {
+        "paragraphe": "I always want to learn more, do more, and be more. I\u2019m also a firm believer that we should never settle.\r\n\r\nI\u2019m hard working, super curious, passionate, committed, and also a fast learner!",
+        "created": "2020-05-22T00:23:47.934Z",
+        "updated": "2020-05-23T00:27:02.297Z",
+        "draft": true
+    }
+}, {
+    "model": "about.tagstechnology",
+    "pk": 1,
+    "fields": {
+        "tag_title": "python",
+        "draft": true,
+        "order": 1,
+        "created": "2020-05-23T00:28:25.591Z",
+        "updated": "2020-05-24T02:47:22.406Z"
+    }
+}, {
+    "model": "about.tagstechnology",
+    "pk": 2,
+    "fields": {
+        "tag_title": "Django",
+        "draft": true,
+        "order": 2,
+        "created": "2020-05-23T00:28:34.306Z",
+        "updated": "2020-05-24T02:47:42.413Z"
+    }
+}, {
+    "model": "about.tagstechnology",
+    "pk": 3,
+    "fields": {
+        "tag_title": "Node.js",
+        "draft": true,
+        "order": 4,
+        "created": "2020-05-23T00:28:48.698Z",
+        "updated": "2020-05-24T02:47:22.431Z"
+    }
+}, {
+    "model": "about.tagstechnology",
+    "pk": 4,
+    "fields": {
+        "tag_title": "React.js",
+        "draft": true,
+        "order": 5,
+        "created": "2020-05-23T00:29:02.171Z",
+        "updated": "2020-05-24T02:47:22.457Z"
+    }
+}, {
+    "model": "about.tagstechnology",
+    "pk": 5,
+    "fields": {
+        "tag_title": "django REST Framework",
+        "draft": true,
+        "order": 3,
+        "created": "2020-05-23T00:29:09.209Z",
+        "updated": "2020-05-24T02:47:22.424Z"
+    }
+}, {
+    "model": "about.tagstechnology",
+    "pk": 8,
+    "fields": {
+        "tag_title": "Redux",
+        "draft": true,
+        "order": 6,
+        "created": "2020-05-23T00:30:14.505Z",
+        "updated": "2020-05-24T02:47:22.461Z"
+    }
+}, {
+    "model": "about.tagstechnology",
+    "pk": 9,
+    "fields": {
+        "tag_title": "STYLED COMPONENTS",
+        "draft": true,
+        "order": 8,
+        "created": "2020-05-23T00:30:24.276Z",
+        "updated": "2020-05-24T02:47:22.483Z"
+    }
+}, {
+    "model": "about.tagstechnology",
+    "pk": 10,
+    "fields": {
+        "tag_title": "MongoDB",
+        "draft": true,
+        "order": 11,
+        "created": "2020-05-23T00:30:41.474Z",
+        "updated": "2020-05-24T02:47:22.438Z"
+    }
+}, {
+    "model": "about.tagstechnology",
+    "pk": 11,
+    "fields": {
+        "tag_title": "PostgreSQL",
+        "draft": true,
+        "order": 12,
+        "created": "2020-05-23T00:31:08.674Z",
+        "updated": "2020-05-24T02:47:22.446Z"
+    }
+}, {
+    "model": "about.tagstechnology",
+    "pk": 12,
+    "fields": {
+        "tag_title": "MySQL",
+        "draft": true,
+        "order": 13,
+        "created": "2020-05-23T00:31:12.304Z",
+        "updated": "2020-05-24T02:47:22.452Z"
+    }
+}, {
+    "model": "about.tagstechnology",
+    "pk": 13,
+    "fields": {
+        "tag_title": "HTML5",
+        "draft": true,
+        "order": 9,
+        "created": "2020-05-23T00:31:19.949Z",
+        "updated": "2020-05-24T02:47:22.476Z"
+    }
+}, {
+    "model": "about.tagstechnology",
+    "pk": 14,
+    "fields": {
+        "tag_title": "CSS3",
+        "draft": true,
+        "order": 10,
+        "created": "2020-05-23T00:31:23.648Z",
+        "updated": "2020-05-24T02:47:22.468Z"
+    }
+}, {
+    "model": "about.tagstechnology",
+    "pk": 15,
+    "fields": {
+        "tag_title": "Javascript",
+        "draft": true,
+        "order": 7,
+        "created": "2020-05-23T00:31:30.128Z",
+        "updated": "2020-05-24T02:47:22.464Z"
+    }
+}, {
+    "model": "about.tagstechnology",
+    "pk": 16,
+    "fields": {
+        "tag_title": "Github API",
+        "draft": false,
+        "order": 60,
+        "created": "2020-05-24T02:44:11.824Z",
+        "updated": "2020-05-24T02:44:11.824Z"
+    }
+}]

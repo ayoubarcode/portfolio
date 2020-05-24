@@ -1,0 +1,53 @@
+[{
+    "model": "portfolio.portfolio",
+    "pk": 1,
+    "fields": {
+        "project_title": "Contact keeper",
+        "project_image": "uploads/2552214246/2552214246.png",
+        "project_description": "A Contact keeper  App, where the user has the ability to Add/Edit/Delete contacts. contacts are saved to the MongoDB Atlas Database , so the user can basically login anywhere and have access to his contacts. The App uses JWT  for the Authentication system, and the user is not  forced to verify his email before using the App.",
+        "link_visite": "https://still-eyrie-27702.herokuapp.com",
+        "link_source": "https://github.com/Ayoub9581/MERN_APP.git",
+        "created": "2020-05-23T13:24:40.673Z",
+        "updated": "2020-05-24T02:39:37.284Z",
+        "technologies": [9, 15, 4, 10, 3]
+    }
+}, {
+    "model": "portfolio.portfolio",
+    "pk": 2,
+    "fields": {
+        "project_title": "Github Finder",
+        "project_image": "uploads/410519141/410519141.png",
+        "project_description": "This very website you're now watching. I wanted something fast and with good SEO for my portfolio, so a static website generator like Gatsby seemed like the best fit. It reads data from markdown files, so it's super easy for me to keep adding Portfolio items as I keep developing stuff. It also has a cool dark mode switch since I couldn't decide between a dark or light design.",
+        "link_visite": "https://githubfinder9581.netlify.app/",
+        "link_source": "https://github.com/Ayoub9581/github_finder_reactjs.git",
+        "created": "2020-05-23T13:27:55.603Z",
+        "updated": "2020-05-24T02:44:27.393Z",
+        "technologies": [9, 4, 16]
+    }
+}, {
+    "model": "portfolio.portfolio",
+    "pk": 3,
+    "fields": {
+        "project_title": "tourism website",
+        "project_image": "uploads/3496859974/3496859974.png",
+        "project_description": "This very website you're now watching. I wanted something fast and with good SEO for my portfolio, so a static website generator like Gatsby seemed like the best fit. It reads data from markdown files, so it's super easy for me to keep adding Portfolio items as I keep developing stuff. It also has a cool dark mode switch since I couldn't decide between a dark or light design.",
+        "link_visite": "http://visitchtoukaitbaha.com/",
+        "link_source": "http://visitchtoukaitbaha.com/",
+        "created": "2020-05-23T13:30:53.952Z",
+        "updated": "2020-05-23T13:55:10.883Z",
+        "technologies": [2, 14, 15, 11, 1]
+    }
+}, {
+    "model": "portfolio.portfolio",
+    "pk": 4,
+    "fields": {
+        "project_title": "E-commerce website",
+        "project_image": "uploads/1137986531/1137986531.png",
+        "project_description": "This project deals with developing an e-commerce website for Online Product Sale. It\r\nprovides the user with a catalog of different product available for purchase in the store.\r\nIn order to facilitate online purchase a shopping cart is provided to the user. \r\nThese include multi-tiered architecture, server and client side scripting techniques,\r\nimplementation technologies such as Django(python), JQUERY, BOOTSTRAP, HTML5,\r\nMySQL Database",
+        "link_visite": "http://bzoop.com/",
+        "link_source": "https://github.com/Ayoub9581/ayoubinventory.git",
+        "created": "2020-05-23T13:34:41.410Z",
+        "updated": "2020-05-24T03:03:44.212Z",
+        "technologies": [2, 13, 14, 15, 12, 1]
+    }
+}]
