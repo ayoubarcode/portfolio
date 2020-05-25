@@ -128,6 +128,7 @@ logs
 
 node_modules
 client/node_modules
+ayoubportfolio/static/node_modules
 bower_components
 
 *.sublime*
