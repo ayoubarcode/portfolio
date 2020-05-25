@@ -10,12 +10,14 @@ const words = [
   'HTML',
   'Redux',
   'python',
-  'CSS',
-  'youtube',
+  'Morocco',
   'Front-end',
   'wondering',
   'Javascript',
   'languages/technologies',
+  'Full',
+  'Stack',
+  // 'stack',
 ];
 
 // const tagsTechno = ['Python', 'Django', 'Node.js', 'ReactJs', 'MongoDB'];

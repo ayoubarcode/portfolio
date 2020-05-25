@@ -32,6 +32,7 @@ const Contact = ({ dark, image }) => {
         </a>
         <a
           href="https://twitter.com/ayoubarahmat"
+          target="_blank"
           type="button"
           className="btn btn-outline-primary rounded-circle waves-effect px-3"
         >
@@ -65,7 +66,7 @@ const Contact = ({ dark, image }) => {
         <p>WEB DEVELOPER </p>
       </div>
 
-      <div className="footer-copyright text-center py-3">
+      <div className="footer-copyright text-center py-3 text-uppercase">
         <span className="font-weight-bold">
           Copyright ©2020 , <span className="text-primary">A.AYOUB</span>
         </span>

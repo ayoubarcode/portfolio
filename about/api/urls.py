@@ -6,6 +6,6 @@ from .viewsets import AboutViewSet, TagsTechnoViewSets
 
 '''
 urlpatterns = [
-    path('about', AboutViewSet.as_view()),
-    path('tags', TagsTechnoViewSets.as_view()),
+    path('about/', AboutViewSet.as_view()),
+    path('tags/', TagsTechnoViewSets.as_view()),
 ]

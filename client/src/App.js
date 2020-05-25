@@ -31,7 +31,7 @@ const App = () => {
   const getParagraphs = async () => {
     try {
       setLoading(true);
-      const res = await axios.get(`/api/about`);
+      const res = await axios.get(`/api/about/`);
       const data = await res.data;
       console.log(data);
       setParagraphs(data);
@@ -44,7 +44,7 @@ const App = () => {
   const getTagsTecho = async () => {
     try {
       // setLoading(false);
-      const res = await axios.get(`/api/tags`);
+      const res = await axios.get(`/api/tags/`);
       const data = await res.data;
       // setLoading(true);
       setTagTechno(data);
@@ -56,7 +56,7 @@ const App = () => {
   const getPortfolios = async () => {
     try {
       setLoading(true);
-      const res = await axios.get(`/api/portfolio`);
+      const res = await axios.get(`/api/portfolio/`);
       const data = await res.data;
       setPotfolios(data);
       setLoading(false);
