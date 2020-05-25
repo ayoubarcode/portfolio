@@ -28,6 +28,7 @@ class Portfolio(models.Model):
     technologies = models.ManyToManyField(TagsTechnology)
     link_visite = models.URLField()
     link_source = models.URLField()
+    order = models.IntegerField(default=60)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
 
@@ -35,4 +36,5 @@ class Portfolio(models.Model):
         return self.project_title
 
     class Meta:
+        ordering = ['order']
         db_table = 'portfolio'

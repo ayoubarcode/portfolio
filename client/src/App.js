@@ -1,13 +1,10 @@
 import React, { Fragment, useState, useEffect } from 'react';
 import './App.css';
 import Navbar from './components//layouts/Navbar';
-import backgroundImage from './images/76.jpg';
 import Main from './components/layouts/Main';
 import About from './components/about/About';
 import Portfolio from './components/portfolio/Portfolio';
-import logo from './images/logo_black.png';
 import image_footer from './images/footer1.png';
-import image_footer_black from './images/footer_black.png';
 import logo_white from './images/logo_white.png';
 import logo2 from './images/logo2.png';
 import Contact from './components/layouts/Contact';
@@ -28,6 +25,7 @@ const App = () => {
 
   useEffect(() => {
     localStorage.setItem('darkMode', JSON.stringify(dark));
+    // eslint-disable-next-line
   }, [dark]);
 
   const getParagraphs = async () => {
@@ -72,7 +70,6 @@ const App = () => {
     <Fragment>
       <Navbar
         logo={!dark ? logo2 : logo_white}
-        backgroundimage={backgroundImage}
         title="AYOUB"
         switchMode={switchMode}
         dark={dark}

@@ -34,6 +34,7 @@ const About = ({
     getTagsTecho();
     getParagraphs();
     setTitle('If you’re wondering who I am');
+    // eslint-disable-next-line
   }, []);
 
   if (loading) {

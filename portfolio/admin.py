@@ -3,8 +3,8 @@ from .models import Portfolio
 
 
 class PortfolioAdmin(admin.ModelAdmin):
-    list_display = ['project_title', 'project_description']
-    list_editable = ['project_description']
+    list_display = ['project_title', 'id', 'project_description', 'order']
+    list_editable = ['project_description', 'order']
 
 
 admin.site.register(Portfolio, PortfolioAdmin)

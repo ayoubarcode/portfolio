@@ -14,36 +14,45 @@ const Contact = ({ dark, image }) => {
       </section>
 
       <section id="social-buttons" className="text-center">
-        <button
+        <a
+          href="https://github.com/ayoub9581"
+          target="_blank"
           type="button"
           className="btn btn-outline-primary rounded-circle waves-effect px-3"
         >
           <i className="fab fa-github text-dark"></i>
-        </button>
-        <button
+        </a>
+        <a
+          href="https://www.facebook.com/ayoubarahmat"
+          target="_blank"
           type="button"
           className="btn btn-outline-primary rounded-circle waves-effect px-3"
         >
           <i className="fab fa-facebook-f text-dark"></i>
-        </button>
-        <button
+        </a>
+        <a
+          href="https://twitter.com/ayoubarahmat"
           type="button"
           className="btn btn-outline-primary rounded-circle waves-effect px-3"
         >
           <i className="fab fa-twitter text-dark"></i>
-        </button>
-        <button
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ayoubarahmat/"
+          target="_blank"
           type="button"
           className="btn btn-outline-primary rounded-circle waves-effect px-3"
         >
           <i className="fab fa-linkedin-in text-dark"></i>
-        </button>
-        <button
+        </a>
+        <a
+          href="https://www.instagram.com/ayoubarahmat/"
+          target="_blank"
           type="button"
           className="btn btn-outline-primary rounded-circle waves-effect px-3"
         >
           <i className="fab fa-instagram text-dark"></i>
-        </button>
+        </a>
       </section>
 
       <div className="text-center">

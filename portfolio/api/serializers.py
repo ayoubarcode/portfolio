@@ -8,7 +8,7 @@ class PortfolioSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Portfolio
-        fields = ['id', 'project_title', 'project_image', 'project_description',
+        fields = ['id', 'order', 'project_title', 'project_image', 'project_description',
                   'technologies', 'link_visite', 'link_source']
 
         read_only_fields = ['technologies']

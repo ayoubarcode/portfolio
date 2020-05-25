@@ -27,7 +27,7 @@ const Portfolio = ({ portfolios, dark, getPortfolios, loading }) => {
           <PorfolioItem
             key={portfolio.id}
             portfolio={portfolio}
-            turn={isDividVy2(portfolio.id)}
+            turn={isDividVy2(portfolio.order)}
           />
         ))}
       </section>
