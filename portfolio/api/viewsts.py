@@ -9,5 +9,5 @@ class ListPortFolioAPI(generics.ListAPIView):
     serializer_class = PortfolioSerializer
 
     def get_queryset(self):
-        qs = Portfolio.objects.all().order_by('-order')
+        qs = Portfolio.objects.all().order_by('order')
         return qs
